@@ -1,0 +1,98 @@
+h1 {
+    font-family: sans-serif;
+    color: #ffffffS;
+    text-align: center;
+}
+h2{
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+}
+
+.wrapper{
+    background: url("https://cgfrog.com/wp-content/uploads/2019/02/Download-free-gradients-for-photoshop-background-ui-bloody-mary.jpg");
+    background-size: cover;
+    display: block;
+    height: 100vh;
+    left: -5px;
+    top:-5px;
+    bottom:-5px;
+    position: fixed;
+    right: -5px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.big{
+    z-index: 1;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin:0px auto;
+    align-content: center;
+}
+label{
+    font-family: sans-serif;
+    font-smooth: auto;
+    font-weight: bold;
+    
+}
+
+#ip1 {
+    border-radius: 25px;
+    border: 2px solid #0AB3E9;
+    padding: 10px; 
+    width: 150px;
+    height: 10px;
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, .4);
+        
+}
+.form {
+  align-self: center;
+  text-align: center;
+  align-items: center;
+
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 320px;
+  overflow: auto;
+  margin: 0;
+  box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, .4);
+}
+.btn {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  // outline: 0;
+  text-align: center;
+  width: 100%;
+}
+.btn:active {
+  background-color: #06b;
+}
+@keyframes color {
+  0%   { background: #33CCCC; }
+  20%  { background: #33CC36; }
+  40%  { background: #B8CC33; }
+  60%  { background: #FCCA00; }
+  80%  { background: #33CC36; }
+  100% { background: #33CCCC; }
+}
+
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 3s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
