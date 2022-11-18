@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>university college predictor</title>
+    <link rel="stylesheet" href="../static/CSS/background.css" />
+</head>
+<body>
+    <div class="context">
+        
+    </div>
+
+
+
+<center>
+<div class="scroll">
+
+<!--<div class="wrapper"></div>-->
+  <div class="big">
+<h1>UNIVERSITY ADMISSION PREDICTION SYSTEM</h1>
+<h2>Enter Your Details And Get Probability Of Your Admission</h2>
+<div class="form">
+    <center>
+<form method="POST" action="{{url_for('y_predict')}}" ;">
+    <label>Enter GRE Score : </label><input type="number" name="t1" id="ip1"><br><br>
+    <label>Enter TOEFL Score :</label> <input type="number" name="t2" id="ip1"><br><br>
+<lable for="University Rating"> University Rating : </lable><br>
+    <input type="radio" name="University Rating" value=1>1</input><br>
+    <input type="radio" name="University Rating" value=2>2</input><br>
+    <input type="radio" name="University Rating" value=3>3</input><br>
+    <input type="radio" name="University Rating" value=4>4</input><br>
+    <input type="radio" name="University Rating" value=5>5</input><br>
+    <br>
+    <label>Enter SOP :</label> <input type="number" name="t3" id="ip1"><br><br>
+    <label>Enter LOR :</label> <input type="number" name="t4" id="ip1"><br><br>
+    <label>Enter CGPA :</label> <input type="number" name="t5" id="ip1"><br><br>
+<label>Reserch :</label>
+    <br>
+    <input type="radio" name="Reserch" value="1">Reserch</input><br>
+    <input type="radio" name="Reserch" value="0"> No Reserch</input><br><br>
+    
+    <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+</form>
+</center>
+</div>
+</div>
+</div>
+</center>
+
+</body>
+
+</html>
